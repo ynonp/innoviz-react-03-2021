@@ -1,0 +1,133 @@
+Gary
+  > very little web, little PHP, little JavaScript
+  > Web interface for DB
+
+Oded
+  > very little web, currently working on React app
+  > web interface to device
+
+Asaf
+  > experienced web developer, little React
+  > will join Oded
+
+Lior
+  > experienced web developer, Angular, React
+  > working on a reporting system, hosting a three.js app
+
+Mark
+  > manager of Asaf, Oded, Gary, Shulamit and Michal
+  > build shared components
+
+Hana
+  > experienced web / Angular developer
+  > working on a tool with React GUI
+
+Ruth
+  > wrote project in Angular, little React
+  > working with Hana
+
+Hilel
+  > Working with Hana and Ruth
+  > Worked in vue.js
+
+Shulamit
+  > Working on web interface (with Gary)
+ 
+Michal
+  > worked a little with Angular, React none
+
+ 
+
+
+
+Module 1 - JavaScript + ES2021
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+## Getting Started (2 hour)
+1. Hello JavaScript
+2. Component Based Architecture
+3. Lab
+
+## Modules (2 hour)
+3. How import / export work
+4. Dynamic imports
+5. Lab - update code from previous lab so that each class is in its own file.
+
+## New Syntax (2 hours)
+6. const / let
+7. Arrow functions
+8. Destructuring
+9. String interpolation
+10. New object syntax
+11. labs:
+https://www.tocode.co.il/bundles/es6/lessons/destructuring-lab
+https://www.tocode.co.il/bundles/es6/lessons/let-const-lab
+
+## Promises and Async / Await (2 hours)
+12. Promises
+13. Async / Await
+14. Lab: async / await
+
+---------------------------------------
+
+
+
+Module 2: Hello React
+~~~~~~~~~~~~~~~~~~~~~
+
+1. React Component Syntax
+  - Hello React Components
+  - State and Props
+  - Lab
+
+2. Advanced Components
+  - Saving arrays and objects in state
+  - Nested components
+  - Refactoring: Moving state up or down
+  - Lists and key
+  - Direct DOM manipulations (ref)
+  - Lab
+
+
+---------------------------------------
+
+Module 3: Thinking In React
+~~~~~~~~~~~~~~~~~~~~~
+
+Components API
+  - useEffect
+  - Lifecycle methods
+  - Lab
+
+Code Sharing Patterns
+  - Higher Order Components
+  - Custom Hooks
+  - Render Props
+  - React.Children and React.cloneElement
+  - Lab: Code Sharing
+
+
+---------------------------------------
+
+Module 4: Writing Larger React Apps
+~~~~~~~~~~~~~~~~~~~~~
+
+React Performance
+  - How and why to count renders
+  - React performance devtools
+  - React.memo, useMemo, useCallback
+  - Performance Lab
+
+MobX Overview
+  - Who needs global state management?
+  - Creating a MobX Store
+  - Connecting MobX to React
+  - MobX Lab
+
+Single Page Apps with React Router
+  - Single Page Structure
+  - Hello React Router
+  - Using Route Params
+  - Using Redirect
+  - Navigating Programmatically
+
