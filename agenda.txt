@@ -86,12 +86,14 @@ Module 1 - JavaScript + ES2021
 4. Dynamic imports
 5. Lab - update code from previous lab so that each class is in its own file.
 
+
+
 ## New Syntax (2 hours)
-6. const / let
-7. Arrow functions
-8. Destructuring
-9. String interpolation
-10. New object syntax
+x 6. const / let
+x 7. Arrow functions
+x 8. Destructuring
+x 9. String interpolation
+x 10. New object syntax
 11. labs:
 https://www.tocode.co.il/bundles/es6/lessons/destructuring-lab
 https://www.tocode.co.il/bundles/es6/lessons/let-const-lab
