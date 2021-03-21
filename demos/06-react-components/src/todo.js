@@ -52,6 +52,7 @@ export default function TodoList(props) {
       <ul style={{listStyle: 'none', padding: 0}}>
         {tasks.map((task, idx) => (
           <li
+            key={idx}
             style={taskStyle(task)}
             onClick={() => toggleTask(idx)}
           >
