@@ -1,11 +1,13 @@
 export default class LightBulb {
   constructor() {
     this.on = true;
+    // Event Handling - BIND
     this.toggle = this.toggle.bind(this);
   }
 
   toggle() {
     this.on = !this.on;
+    // Modify DOM to reflect state
     if (this.on) {
       this.lightElement.style.background = 'yellow';
     } else {

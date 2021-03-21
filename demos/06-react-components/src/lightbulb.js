@@ -1,7 +1,13 @@
 import React from 'react';
 
-export default function LightBulb() {
-  const [ isOn, setValue ] = React.useState(false);
+LightBulb.defaultProps = {
+  color: 'yellow',
+  start: false,
+}
+
+export default function LightBulb(props) {
+  const { color, start } = props;
+  const [ isOn, setValue ] = React.useState(start);
 
   function toggle() {
     // Either a function taking previous value
@@ -16,7 +22,7 @@ export default function LightBulb() {
     width: '100px',
     height: '100px',
     display: 'inline-block',
-    background: isOn ? 'yellow' : 'transparent',
+    background: isOn ? color : 'transparent',
   };
 
   return (
@@ -26,4 +32,7 @@ export default function LightBulb() {
     </div>
   );
 }
+
+
+
 
