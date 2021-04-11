@@ -20,7 +20,7 @@ export default function GamgePage(props) {
       <Score score={score} />
       
       <div style={{ margin: '10px' }}>
-        <Game success={sucess} failure={failure} />
+        <Game score={score} success={sucess} failure={failure} />
       </div>
       <button onClick={exitGame}>Exit</button>
     </div>
